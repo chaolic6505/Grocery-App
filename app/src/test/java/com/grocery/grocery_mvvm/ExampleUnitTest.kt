@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp
+package com.grocery.grocery_mvvm
 
 import org.junit.Test
 

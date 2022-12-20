@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.ui.theme
+package com.grocery.grocery_mvvm.ui.theme
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
