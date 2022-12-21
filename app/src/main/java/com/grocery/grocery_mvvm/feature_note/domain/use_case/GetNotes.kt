@@ -5,6 +5,7 @@ import com.grocery.grocery_mvvm.feature_note.domain.repository.NoteRepository
 import com.grocery.grocery_mvvm.feature_note.domain.util.NoteOrder
 import com.grocery.grocery_mvvm.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 
 class GetNotes(
     private val repository: NoteRepository
