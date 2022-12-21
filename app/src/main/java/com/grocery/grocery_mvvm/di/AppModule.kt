@@ -5,6 +5,7 @@ import androidx.room.Room
 import com.grocery.grocery_mvvm.feature_note.data.data_source.NoteDatabase
 import com.grocery.grocery_mvvm.feature_note.data.repository.NoteRepositoryImpl
 import com.grocery.grocery_mvvm.feature_note.domain.repository.NoteRepository
+import com.grocery.grocery_mvvm.feature_note.domain.use_case.AddNote
 import com.grocery.grocery_mvvm.feature_note.domain.use_case.DeleteNote
 import com.grocery.grocery_mvvm.feature_note.domain.use_case.GetNotes
 import com.grocery.grocery_mvvm.feature_note.domain.use_case.NoteUseCases
@@ -40,6 +41,7 @@ object AppModule {
         return NoteUseCases(
             getNotes = GetNotes(repository),
             deleteNote = DeleteNote(repository),
+            addNote = AddNote(repository),
         )
     }
 }
